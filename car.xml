@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<define-class inherit="Agent.xml" name="car">
+
+   <set-attr-value name="scalex" value="0.01"/>
+   <set-attr-value name="scaley" value="0.01"/>
+   <set-attr-value name="scalez" value="0.01"/>
+   <!--set-attr-value name="mass" value="0.0001"/-->  
+
+ <x3d>
+   <filename>car_v4_sgv.x3d</filename><!-->H7_v2.x3d</filename-->
+ </x3d>
+ 
+</define-class>

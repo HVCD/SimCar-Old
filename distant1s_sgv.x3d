@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+  <head>
+    <meta name="filename" content="distant1s.x3d" />
+    <meta name="generator" content="Blender 2.73 (sub 0)" />
+  </head>
+  <Scene>
+    <Group>
+      <Transform DEF="Cube_001_TRANSFORM" translation="0.000000 0.000000 0.000000" scale="0.232781 5.970783 3.958968" rotation="0.000000 0.707107 0.707107 3.141593">
+        <Shape>
+          <Appearance>
+            <ImageTexture DEF="IM_0_jpg" url="&quot;C:/Program Files (x86)/SIGViewer_2.2.0/SIGViewer/media/materials/textures/0.jpg&quot; &quot;0.jpg&quot;" />
+            <TextureTransform translation="0.000000 0.000000" scale="1.000000 1.000000" rotation="0.000000" />
+            <Material DEF="MA_Material" diffuseColor="0.5 0.7 0.5" specularColor="0.401 0.401 0.401" emissiveColor="0.000 0.000 0.000" ambientIntensity="0.333" shininess="0.098" transparency="0.0" />
+          </Appearance>
+          <IndexedFaceSet solid="true" texCoordIndex="0 1 2 3 -1 4 5 6 7 -1 8 9 10 11 -1 12 13 14 15 -1 16 17 18 19 -1 " coordIndex="0 1 2 3 -1 4 7 6 5 -1 0 4 5 1 -1 1 5 6 2 -1 4 0 3 7 -1 ">
+            <Coordinate DEF="coords_ME_Cube_001" point="1.000000 1.000000 -1.000000 1.000000 -1.000000 -1.000000 -1.000000 -1.000000 -1.000000 -1.000000 1.000000 -1.000000 1.000000 0.999999 1.000000 0.999999 -1.000001 1.000000 -1.000000 -1.000000 1.000000 -1.000000 1.000000 1.000000 " />
+            <TextureCoordinate point="0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.9975 0.0019 0.9981 0.8489 0.0007 0.8527 0.0000 0.0038 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 " />
+          </IndexedFaceSet>
+        </Shape>
+      </Transform>
+      <Transform DEF="Cube_TRANSFORM" translation="0.000000 0.000000 0.000000" scale="0.232781 5.970783 3.958968" rotation="0.000000 0.707107 0.707107 3.141593">
+        <Shape>
+          <Appearance>
+            <ImageTexture DEF="IM_00_jpg" url="&quot;C:/Program Files (x86)/SIGViewer_2.2.0/SIGViewer/media/materials/textures/00.jpg&quot; &quot;00.jpg&quot;" />
+            <TextureTransform translation="0.000000 0.000000" scale="1.000000 1.000000" rotation="0.000000" />
+            <Material DEF="MA_Material_001" diffuseColor="0.5 0.7 0.5" specularColor="0.401 0.401 0.401" emissiveColor="0.000 0.000 0.000" ambientIntensity="0.333" shininess="0.098" transparency="0.0" />
+          </Appearance>
+          <IndexedFaceSet solid="true" texCoordIndex="0 1 2 3 -1 " coordIndex="0 2 3 1 -1 ">
+            <Coordinate DEF="coords_ME_Cube" point="-1.000000 -1.000000 -1.000000 -1.000000 1.000000 -1.000000 -1.000000 -1.000000 1.000000 -1.000000 1.000000 1.000000 " />
+            <TextureCoordinate point="-0.0106 -0.0037 -0.0079 0.3828 0.9974 0.3828 0.9948 -0.0037 " />
+          </IndexedFaceSet>
+        </Shape>
+      </Transform>
+    </Group>
+  </Scene>
+</X3D>
+

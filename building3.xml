@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<define-class inherit="Entity.xml" name="building3">
+
+ <body filename="dummy-body.xml"/>
+
+ <x3d>
+   <filename>building3.x3d</filename>
+ </x3d>
+ 
+</define-class>

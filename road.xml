@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<define-class inherit="Entity.xml" name="road">
+
+   <set-attr-value name="scalex" value="2.0"/>
+   <set-attr-value name="scaley" value="2.0"/>
+   <set-attr-value name="scalez" value="2.0"/>
+
+ <x3d>
+   <filename>road.x3d</filename>
+ </x3d>
+ 
+</define-class>

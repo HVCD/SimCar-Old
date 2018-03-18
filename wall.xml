@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<define-class inherit="Entity.xml" name="wall">
+
+ <body filename="dummy-body.xml"/>
+
+ <x3d>
+   <filename>distant1s_sgv.x3d</filename>
+ </x3d>
+ 
+</define-class>

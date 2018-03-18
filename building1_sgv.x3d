@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+  <head>
+    <meta name="filename" content="building1.x3d" />
+    <meta name="generator" content="Blender 2.73 (sub 0)" />
+  </head>
+  <Scene>
+    <Group>
+      <Transform DEF="Cube_001_TRANSFORM" translation="-0.269124 -0.000049 0.196594" scale="0.983849 0.983849 2.500000" rotation="0.000000 0.707107 0.707107 3.141593">
+        <Shape>
+          <Appearance>
+            <ImageTexture DEF="IM_building_png" url="&quot;building.png&quot; &quot;E:/所有资料/学习/大二小学期/Robocup/汽车公路模型/picture/building/building.png&quot;" />
+            <TextureTransform translation="0.000000 0.000000" scale="1.000000 1.000000" rotation="0.000000" />
+            <Material DEF="MA_Material" diffuseColor="0.5 0.7 0.5" specularColor="0.001 0.001 0.001" emissiveColor="0.000 0.000 0.000" ambientIntensity="0.333" shininess="0.098" transparency="0.0" />
+          </Appearance>
+          <IndexedFaceSet solid="true" texCoordIndex="0 1 2 3 -1 4 5 6 7 -1 8 9 10 11 -1 12 13 14 15 -1 16 17 18 19 -1 " coordIndex="0 1 2 3 -1 0 4 5 1 -1 1 5 6 2 -1 2 6 7 3 -1 4 0 3 7 -1 ">
+            <Coordinate DEF="coords_ME_Cube_001" point="1.000000 1.000000 -1.000000 1.000000 -1.000000 -1.000000 -1.000000 -1.000000 -1.000000 -1.000000 1.000000 -1.000000 1.000000 0.999999 1.000000 0.999999 -1.000001 1.000000 -1.000000 -1.000000 1.000000 -1.000000 1.000000 1.000000 " />
+            <TextureCoordinate point="0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.9931 0.0000 1.0000 0.9818 0.0069 0.9864 0.0000 0.0000 0.9931 0.0045 1.0000 0.9864 0.0000 0.9773 0.0000 0.0000 0.9861 0.0000 0.9931 0.9864 0.0069 0.9864 0.0000 0.0000 0.0000 0.9955 0.0000 0.0045 0.9931 0.0091 1.0069 0.9864 " />
+          </IndexedFaceSet>
+        </Shape>
+      </Transform>
+      <Transform DEF="Cube_TRANSFORM" translation="-0.269124 -0.000049 0.196594" scale="0.983849 0.983849 2.500000" rotation="0.000000 0.707107 0.707107 3.141593">
+        <Shape>
+          <Appearance>
+            <ImageTexture DEF="IM_wall_jpg" url="&quot;E:/所有资料/学习/大二小学期/Robocup/汽车公路模型/picture/house/wall.jpg&quot; &quot;wall.jpg&quot; &quot;E:/所有资料/学习/大二小学期/Robocup/汽车公路模型/picture/building/../house/wall.jpg&quot;" />
+            <TextureTransform translation="0.000000 0.000000" scale="1.000000 1.000000" rotation="0.000000" />
+            <Material DEF="MA_Material_001" diffuseColor="0.5 0.7 0.5" specularColor="0.001 0.001 0.001" emissiveColor="0.000 0.000 0.000" ambientIntensity="0.333" shininess="0.098" transparency="0.0" />
+          </Appearance>
+          <IndexedFaceSet solid="true" texCoordIndex="0 1 2 3 -1 " coordIndex="0 3 2 1 -1 ">
+            <Coordinate DEF="coords_ME_Cube" point="1.000000 0.999999 1.000000 0.999999 -1.000001 1.000000 -1.000000 -1.000000 1.000000 -1.000000 1.000000 1.000000 " />
+            <TextureCoordinate point="1.0000 0.0000 0.9969 1.0000 0.0031 0.9955 0.0000 0.0000 " />
+          </IndexedFaceSet>
+        </Shape>
+      </Transform>
+    </Group>
+  </Scene>
+</X3D>
+
